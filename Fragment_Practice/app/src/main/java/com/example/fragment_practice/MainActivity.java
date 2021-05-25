@@ -22,6 +22,7 @@ Button b1;
                 FragmentTransaction fr=fm.beginTransaction();
                 fr.add(R.id.holder,new Sign_In_Fragment());
                 fr.addToBackStack(null);
+                fr.commit();
             }
         });
     }

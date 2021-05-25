@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:text="Sign In"
         android:gravity="center"
+        android:fontFamily="serif"
         android:textColor="@color/white"
         android:textSize="60dp"
         android:id="@+id/Sign_In"

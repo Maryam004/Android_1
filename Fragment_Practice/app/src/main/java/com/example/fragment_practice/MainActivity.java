@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
              FragmentManager fm=getSupportFragmentManager();
+             fm.beginTransaction().replace(R.id.holder,new Sign_In_Fragment());
             }
         });
     }

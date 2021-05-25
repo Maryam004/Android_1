@@ -1,4 +1,4 @@
-package android.support.v4.app;
+package com.example.fragment_practice;
 
 import android.os.Bundle;
 
@@ -8,14 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.fragment_practice.R;
-
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Sign_In_Fragment#newInstance} factory method to
+ * Use the {@link Sign_Up_Fragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Sign_In_Fragment extends Fragment {
+public class Sign_Up_Fragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +24,7 @@ public class Sign_In_Fragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Sign_In_Fragment() {
+    public Sign_Up_Fragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +34,11 @@ public class Sign_In_Fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Sign_In_Fragment.
+     * @return A new instance of fragment Sign_Up_Fragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static Sign_In_Fragment newInstance(String param1, String param2) {
-        Sign_In_Fragment fragment = new Sign_In_Fragment();
+    public static Sign_Up_Fragment newInstance(String param1, String param2) {
+        Sign_Up_Fragment fragment = new Sign_Up_Fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +59,6 @@ public class Sign_In_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign__in, container, false);
+        return inflater.inflate(R.layout.fragment_sign__up_, container, false);
     }
 }

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7A138C"
-    tools:context="android.support.v4.app.Sign_In_Fragment">
+    tools:context=".Sign_In_Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

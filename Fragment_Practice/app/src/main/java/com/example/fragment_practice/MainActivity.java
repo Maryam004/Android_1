@@ -31,7 +31,7 @@ Button b1,b2;
             public void onClick(View v) {
                 FragmentManager fm=getSupportFragmentManager();
                 FragmentTransaction fr=fm.beginTransaction();
-                //fr.add(R.id.holder,new Sign_Up_Fragment());
+                fr.add(R.id.holder,new Sign_Up_Fragment());
                 //fr.addToBackStack(null);
                 //fr.commit();
             }

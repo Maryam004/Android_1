@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sign_In_Fragment">
+    android:background="#EAB822"
+    tools:context="android.support.v4.app.Sign_In_Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

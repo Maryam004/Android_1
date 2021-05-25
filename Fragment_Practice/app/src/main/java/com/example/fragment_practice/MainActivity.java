@@ -2,6 +2,7 @@ package com.example.fragment_practice;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,8 @@ Button b1;
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                FragmentManager fm=getSupportFragmentManager();
+                FragmentTransaction fr=fm.beginTransaction();
                 
             }
         });

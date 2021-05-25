@@ -1,6 +1,7 @@
 package com.example.fragment_practice;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn_SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+             FragmentManager fm=getSupportFragmentManager();
             }
         });
     }

@@ -9,12 +9,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-Button b1;
+Button b1,b2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         b1=findViewById(R.id.signIn);
+        b2=findViewById(R.id.signUp);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,6 +24,16 @@ Button b1;
                 fr.add(R.id.holder,new Sign_In_Fragment());
                 fr.addToBackStack(null);
                 fr.commit();
+            }
+        });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm=getSupportFragmentManager();
+               // FragmentTransaction fr=fm.beginTransaction();
+                //fr.add(R.id.holder,new Sign_Up_Fragment());
+                //fr.addToBackStack(null);
+                //fr.commit();
             }
         });
     }

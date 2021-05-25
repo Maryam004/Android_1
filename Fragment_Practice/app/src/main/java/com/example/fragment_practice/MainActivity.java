@@ -32,7 +32,7 @@ Button b1,b2;
                 FragmentManager fm=getSupportFragmentManager();
                 FragmentTransaction fr=fm.beginTransaction();
                 fr.add(R.id.holder,new Sign_Up_Fragment());
-                //fr.addToBackStack(null);
+                fr.addToBackStack(null);
                 //fr.commit();
             }
         });

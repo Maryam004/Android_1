@@ -20,7 +20,8 @@ Button b1;
             public void onClick(View v) {
                 FragmentManager fm=getSupportFragmentManager();
                 FragmentTransaction fr=fm.beginTransaction();
-                
+                fr.add(R.id.holder,new Sign_In_Fragment());
+                fr.addToBackStack(null);
             }
         });
     }

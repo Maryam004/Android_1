@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="sign Up"
             android:id="@+id/signUp"
+            android:textSize="20dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="10dp"

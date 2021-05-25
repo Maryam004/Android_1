@@ -30,7 +30,7 @@ Button b1,b2;
             @Override
             public void onClick(View v) {
                 FragmentManager fm=getSupportFragmentManager();
-               // FragmentTransaction fr=fm.beginTransaction();
+                FragmentTransaction fr=fm.beginTransaction();
                 //fr.add(R.id.holder,new Sign_Up_Fragment());
                 //fr.addToBackStack(null);
                 //fr.commit();

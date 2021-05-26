@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 switch(id)
                 {
-                    case R.id.:
+                    case R.id.nav_home:
                         Toast.makeText(MainActivity.this, "My Account",Toast.LENGTH_SHORT).show();break;
                     case R.id.profile:
                         Toast.makeText(MainActivity.this, "Settings",Toast.LENGTH_SHORT).show();break;

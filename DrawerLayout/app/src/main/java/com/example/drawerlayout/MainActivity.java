@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_home:
                         Toast.makeText(MainActivity.this, "Home Activity",Toast.LENGTH_SHORT).show();break;
                     case R.id.profile:
-                        Toast.makeText(MainActivity.this, "",Toast.LENGTH_SHORT).show();break;
+                        Toast.makeText(MainActivity.this, "View Profile",Toast.LENGTH_SHORT).show();break;
                     case R.id.setting:
                         Toast.makeText(MainActivity.this, "My Cart", Toast.LENGTH_SHORT).show();break;
                     default:

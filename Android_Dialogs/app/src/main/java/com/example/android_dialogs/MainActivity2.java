@@ -52,7 +52,7 @@ public class MainActivity2 extends AppCompatActivity {
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MainActivity2.this,"No Option Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity2.this,"No Option Selected from DialogBox", Toast.LENGTH_SHORT).show();
                     }
                 });
         //Creating dialog box

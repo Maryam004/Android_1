@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class MainActivity2 extends AppCompatActivity {
     Button showItemListButton;
-    final CharSequence[] colors = { "Pink", "Red", "Yellow", "Blue" };
+    final CharSequence[] colors = { "Orange", "Red", "Yellow", "Blue" };
     ArrayList<Integer> slist = new ArrayList();
     boolean icount[] = new boolean[colors.length];
     String msg ="";

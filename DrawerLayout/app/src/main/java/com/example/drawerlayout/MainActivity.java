@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 switch(id)
                 {
-                    case R.id.account:
+                    case R.id.:
                         Toast.makeText(MainActivity.this, "My Account",Toast.LENGTH_SHORT).show();break;
-                    case R.id.settings:
+                    case R.id.profile:
                         Toast.makeText(MainActivity.this, "Settings",Toast.LENGTH_SHORT).show();break;
-                    case R.id.mycart:
+                    case R.id.setting:
                         Toast.makeText(MainActivity.this, "My Cart", Toast.LENGTH_SHORT).show();break;
                     default:
                         return true;

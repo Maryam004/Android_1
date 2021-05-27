@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the Negative button with No name OnClickListener method is use of DialogInterface interface.
         builder.setNegativeButton(
-                "",
+                "Stay Alive",
                 new DialogInterface.OnClickListener() {
 
                     @Override

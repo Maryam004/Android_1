@@ -30,7 +30,7 @@
         android:layout_height="14dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="Age"
         app:layout_constraintStart_toEndOf="@+id/imageViewFriendPicture"
         app:layout_constraintTop_toBottomOf="@+id/textViewFriendName" />
 

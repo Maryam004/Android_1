@@ -22,6 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="44dp"
         android:text="Name"
+        android:textSize="15dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/imageViewFriendPicture"
         app:layout_constraintTop_toTopOf="@+id/imageViewFriendPicture" />
 
